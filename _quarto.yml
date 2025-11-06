@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Program Induction Practice"
+  navbar:
+    right:
+      - text: "GitHub"
+        href: "https://github.com/olichletprocess/program-induction-training"
+
+format:
+  html:
+    theme: minty
+    toc: true
+    code-fold: true
+
+execute:
+  python: "D:/Github/program-induction/.venv311/Scripts/python.exe"
